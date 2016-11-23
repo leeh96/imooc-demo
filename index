@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>imooc</title>
+	<link href="css/main.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/lunbo.js"></script>
+</head>
+<body>
+	<div class="all">
+		<div class="head">
+			<div class="logo"><img src="http://img.mukewang.com/53edadad0001efe202000070.jpg"></div>
+			<div class="list">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">产品特色</a></li>
+					<li><a href="#">解决方案</a></li>
+					<li><a href="#">产品价格</a></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="lunbo" id='lunbo' onclick="movepic()">
+				<div class="lunbo_pic" id='lunbo_pic' style="left: -1000px">
+				<img src="http://img.mukewang.com/53edad1600019ae910000310.jpg">
+				<img src="http://img.mukewang.com/53edad3e0001afad10000318.jpg">
+				<img src="http://img.mukewang.com/53edad2c0001b61310000314.jpg">
+				<img src="http://img.mukewang.com/53edad1600019ae910000310.jpg">
+				<img src="http://img.mukewang.com/53edad3e0001afad10000318.jpg">
+				</div>
+				</div>
+				<div id="lunbo_click" >
+					<ul>
+						<li class="lunbo_foot_s" onclick="lunbo(this)"></li>
+						<li class="lunbo_foot"  onclick="lunbo(this)"></li>
+						<li class="lunbo_foot"  onclick="lunbo(this)"></li>
+					</ul>
+				</div>
+			
+			<div class="scr_news">
+				<div class="scr_news_logo"><span>滚动新闻</span></div>
+				<div class="scr_news_news"><span>这是滚动新闻</span></div>
+			</div>
+			<div class="menu">
+				<div class="menu_left"><span>玩转Bootstrap</span></div>
+				<div class="menu_center"><span>企业网站案例</span></div>
+				<div class="menu_right"><span>Javascript基础</span></div>
+			</div>
+			<div class="list_news">
+				<div class="list_news_co">
+					<div class="list_news_top"><span>新闻中心</span></div>
+					<div class="list_news_left_content">
+						<ul>
+							<li><div class="date">8月23日</div><div class="news"><strong>English</strong><p>12345346867867</p></div></li>
+							<li><div class="date">8月23日</div><div class="news"><strong>English</strong><p>12345346867867</p></div></li>
+							<li><div class="date">8月23日</div><div class="news"><strong>English</strong><p>12345346867867</p></div></li>
+						</ul>
+					</div>
+				</div>
+				<div class="list_news_co" style="margin-left: 2px">
+					<div class="list_news_top"><span>热门活动</span></div>
+					<div class="list_news_center_content">
+						<ul>
+							<li><img src="http://img.mukewang.com/53edacdd0001b8e804820302.jpg" style="height: 130px;width: 280px;"></li>
+							<li><strong>English</strong></li>
+							<li><strong>English</strong></li>
+							<li><strong>English</strong></li>
+						</ul>
+					</div>
+				</div>
+				<div class="list_news_co" style="margin-left: 2px">
+					<div class="list_news_top"><span>联系我们</span></div>
+					<div class="list_news_right_content">
+						<ul>
+							<li><strong>实训招募</strong><p>吴同学</p><p>电话：123456789</p><p>QQ:5214786245</p><p>Email:458258@yahoo.com</p></li>
+							<li><strong>网站合作</strong><p>吴同学</p><p>电话：123456789</p><p>QQ:5214786245</p><p>Email:458258@yahoo.com</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot"> 
+			<span>这是一个网页|2016|</span>
+		</div>
+</body>
+</html>
